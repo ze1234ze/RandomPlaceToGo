@@ -1,0 +1,60 @@
+body {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  /* color: rgb(255, 255, 255); */
+  font-size: 150px;
+  transition: all 5.5s ease;
+  text-align: center;
+  text-transform: uppercase;
+  /* animation: animate 2s ease-in-out infinite alternate;  */
+
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  /* color: rgb(255, 255, 255); */
+  font-size: 5px;
+  text-align: end;
+  text-transform: uppercase;
+  /* animation: animate 2s ease-in-out infinite alternate;  */
+
+}
+
+a {
+  color: rgb(255, 255, 255);
+  /* Цвет ссылок */
+  animation: animate 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes animate {
+  from {
+    text-shadow: 0 0 15px #ffffff;
+  }
+
+  to {
+    text-shadow: 0 0 40px #6c857f,
+      0 0 150px #19ffcd;
+  }
+
+}
+
+/* a { */
+/* color: rgb(228, 228, 228); Цвет ссылок */
+/* animation: animate 2s ease-in-out infinite alternate; */
+/* } */
+/*a:visited {
+    color: #a1a1a1; /* Цвет посещенных ссылок */
+
+
+/* a:active {
+    color: #a6fbff; /* Цвет активных ссылок */
+/* }  */
